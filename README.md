@@ -1,8 +1,11 @@
 # Speech-Emotion-Recognition-Using-Tensorflow
 A jupyter notebook for processing emotions from speech
 
-Speech Emotion Recognition
+🔆 Speech Emotion Recognition
 A deep‐learning project that classifies speech into one of seven emotions using an LSTM‐based model.
+
+✳️ Visual Overview 
+
 
 📹 Demo
 First, see it in action:
