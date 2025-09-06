@@ -64,7 +64,9 @@ python scripts/predict_ser.py \
 📓 Interactive Notebook
 All EDA, feature engineering, model building, training and plotting live in the Jupyter notebook:
 ```
-notebooks/Speech-Emotion-Recognition.ipynb images go here 
+notebooks/Speech-Emotion-Recognition.ipynb images go here
+<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/3fc307d0-a9d1-48c9-82f2-10bc3f416bf7" />
+
 ```
 
 📐 Model Architecture
