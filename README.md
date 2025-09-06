@@ -1,16 +1,13 @@
-# Speech-Emotion-Recognition-Using-Tensorflow
-A jupyter notebook for processing emotions from speech
-
-🔆 Speech Emotion Recognition
+# 🔆 Speech Emotion Recognition
 A deep‐learning project that classifies speech into one of seven emotions using an LSTM‐based model.
 
-✳️ Visual Overview 
+## ✳️ Visual Overview 
 
 https://github.com/user-attachments/assets/75b68583-e15e-4e30-9a8f-c42a8230bc3a
 
 
 
-📹 Demo
+## 📹 Demo
 First, see it in action:
 - 1. Open a terminal.
 - 2. Run the prediction script on a WAV file
@@ -20,7 +17,7 @@ python scripts/predict_ser.py -f data/audio/sad_01.wav
 - 3. Observe live confidence scores and predicted labels
 (Replace the above with a short screen recording or animated GIF once you upload to GitHub.)
 
-🔍 Project Overview
+## 🔍 Project Overview
 
 - 1. Problem
 Automatically recognize emotion (angry, disgust, fear, happy, neutral, sad, surprise) from 3–4 s speech clips.
@@ -31,7 +28,7 @@ Automatically recognize emotion (angry, disgust, fear, happy, neutral, sad, surp
 - Training: 80/20 train/validation split, ModelCheckpoint callback
 - Evaluation: Accuracy, loss curves
 
-🛠️ Getting Started
+## 🛠️ Getting Started
 1. Clone
 ```
 git clone https://github.com/yourusername/speech-emotion-recognition.git
@@ -50,7 +47,7 @@ pip install -r requirements.txt
 - Place your .wav files in " data/audio/ " with filenames like " speakerID_emotion.wav ".
 - Emotion labels must match EMOTIONS = ['angry','disgust','fear','happy','neutral','ps','sad'].
 
-▶️ Usage
+## ▶️ Usage
 Run inference on any WAV:
 ```
 python scripts/predict_ser.py \
@@ -60,7 +57,7 @@ python scripts/predict_ser.py \
 - -f/--file: path to input WAV
 - -m/--model: path to saved .h5 model (defaults to models/best_ser.h5)
 
-📓 Interactive Notebook
+## 📓 Interactive Notebook
 All EDA, feature engineering, model building, training and plotting live in the Jupyter notebook:
 1. Dataset samples
 <img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/3fc307d0-a9d1-48c9-82f2-10bc3f416bf7" />
@@ -76,7 +73,7 @@ All EDA, feature engineering, model building, training and plotting live in the 
 
 
 
-📐 Model Architecture
+## 📐 Model Architecture
 ```
 Input (40 × 1 MFCC feature vector)
     │
@@ -105,13 +102,13 @@ Input (40 × 1 MFCC feature vector)
   Output: 7 emotion probabilities
 ```
 
-💾 Data & Preprocessing
+## 💾 Data & Preprocessing
 - Duration: Load or pad/truncate to 3 s (or 4 s)
 - Sampling: librosa.load(sr=None)
 - Feature: librosa.feature.mfcc(n_mfcc=40) → mean over time → shape (40,)
 - Labels: extracted from filename suffix (e.g. happy, sad
 
-📊 Training & Results
+## 📊 Training & Results
 - Checkpoint: ModelCheckpoint('../models/best_ser.h5', monitor='val_accuracy')
 - Curves:
 Train/Val Accuracy
@@ -120,7 +117,7 @@ Train/Val Loss
 - Train accuracy: ~99%
 - Validation accuracy: ~99%
 
-🤝 Contributing
+## 🤝 Contributing
 - Fork the repo
 - Branch naming: feature/xyz-description or fix/xyz-description
 - Install pre-commit hooks:
