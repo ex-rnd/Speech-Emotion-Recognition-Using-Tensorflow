@@ -7,6 +7,10 @@ A deep‐learning project that classifies speech into one of seven emotions usin
 ✳️ Visual Overview 
 
 
+https://github.com/user-attachments/assets/75b68583-e15e-4e30-9a8f-c42a8230bc3a
+
+
+
 📹 Demo
 First, see it in action:
 - 1. Open a terminal.
