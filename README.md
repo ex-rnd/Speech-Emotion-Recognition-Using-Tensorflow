@@ -5,8 +5,6 @@ A jupyter notebook for processing emotions from speech
 A deep‐learning project that classifies speech into one of seven emotions using an LSTM‐based model.
 
 ✳️ Visual Overview 
-
-
 https://github.com/user-attachments/assets/75b68583-e15e-4e30-9a8f-c42a8230bc3a
 
 
@@ -65,6 +63,17 @@ python scripts/predict_ser.py \
 All EDA, feature engineering, model building, training and plotting live in the Jupyter notebook:
 1. Dataset samples
 <img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/3fc307d0-a9d1-48c9-82f2-10bc3f416bf7" />
+
+2. Model Architecture
+<img width="597" height="372" alt="image" src="https://github.com/user-attachments/assets/96dc8084-06f0-4f58-839f-5f794b308682" />
+
+3. Training Accuracy
+<img width="547" height="413" alt="image" src="https://github.com/user-attachments/assets/3cf9b294-e613-43ec-baa8-75feda86442d" />
+
+4. Training Loss
+<img width="547" height="418" alt="image" src="https://github.com/user-attachments/assets/84a394e9-abe1-4ae2-8713-f09f3dd9a10d" />
+
+
 
 📐 Model Architecture
 ```
