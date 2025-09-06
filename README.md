@@ -5,6 +5,7 @@ A jupyter notebook for processing emotions from speech
 A deep‐learning project that classifies speech into one of seven emotions using an LSTM‐based model.
 
 ✳️ Visual Overview 
+
 https://github.com/user-attachments/assets/75b68583-e15e-4e30-9a8f-c42a8230bc3a
 
 
