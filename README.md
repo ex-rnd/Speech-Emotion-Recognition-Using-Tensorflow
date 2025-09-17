@@ -132,7 +132,9 @@ pre-commit install
 - Describe your changes
 - Link any related issues
 - Ensure CI passes
-Thank you for your contributions! 🎉
+
+
+### Thank you for your contributions! 🎉
 
 
 
