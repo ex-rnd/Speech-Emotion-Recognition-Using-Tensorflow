@@ -31,7 +31,7 @@ python scripts/predict_ser.py -f data/audio/sad_01.wav
 ## 🛠️ Getting Started
 1. Clone
 ```bash
-git clone [https://github.com/yourusername/speech-emotion-recognition.git](https://github.com/ex-rnd/Speech-Emotion-Recognition-Using-Tensorflow.git)
+git clone https://github.com/ex-rnd/Speech-Emotion-Recognition-Using-Tensorflow.git
 cd speech-emotion-recognition
 ```
 
