@@ -6,26 +6,27 @@ A deep‐learning project that classifies speech into one of seven emotions usin
 https://github.com/user-attachments/assets/75b68583-e15e-4e30-9a8f-c42a8230bc3a
 
 
-
 ## 📹 Demo
 First, see it in action:
-- 1. Open a terminal.
-- 2. Run the prediction script on a WAV file
+1. Open a terminal.
+2. Run the prediction script on a WAV file
 ```
 python scripts/predict_ser.py -f data/audio/sad_01.wav
 ```
-- 3. Observe live confidence scores and predicted labels
+3. Observe live confidence scores and predicted labels
+
 
 ## 🔍 Project Overview
 
-- 1. Problem
-Automatically recognize emotion (angry, disgust, fear, happy, neutral, sad, surprise) from 3–4 s speech clips.
+### Problem
+- Automatically recognize emotion `(angry, disgust, fear, happy, neutral, sad, surprise)` from 3–4 s speech clips.
 
-- 2. Key Components
+### Key Components
 - Feature extraction: 40-dim MFCCs
 - Model: Single‐layer LSTM → Dropout → Dense → Dropout → Dense → Dropout → Dense(softmax)
 - Training: 80/20 train/validation split, ModelCheckpoint callback
 - Evaluation: Accuracy, loss curves
+
 
 ## 🛠️ Getting Started
 1. Clone
@@ -36,9 +37,9 @@ cd speech-emotion-recognition
 
 2. Environment
 ```
-python3 -m venv venv
-source venv/bin/activate   # Linux/macOS
-venv\Scripts\activate      # Windows
+python3 -m venv spixah
+source spixah/bin/activate   # Linux/macOS  
+spixah\Scripts\activate      # Windows  
 pip install -r requirements.txt
 ```
 
@@ -50,8 +51,8 @@ pip install -r requirements.txt
 Run inference on any WAV:
 ```
 python scripts/predict_ser.py \
-  -f data/audio/happy_10.wav \
-  -m models/best_ser.h5
+  -f ../data/audio/happy_10.wav \
+  -m ../models/best_ser.h5
 ```
 - -f/--file: path to input WAV
 - -m/--model: path to saved .h5 model (defaults to models/best_ser.h5)
