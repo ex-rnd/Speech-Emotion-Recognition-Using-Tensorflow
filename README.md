@@ -15,7 +15,6 @@ First, see it in action:
 python scripts/predict_ser.py -f data/audio/sad_01.wav
 ```
 - 3. Observe live confidence scores and predicted labels
-(Replace the above with a short screen recording or animated GIF once you upload to GitHub.)
 
 ## 🔍 Project Overview
 
@@ -31,7 +30,7 @@ Automatically recognize emotion (angry, disgust, fear, happy, neutral, sad, surp
 ## 🛠️ Getting Started
 1. Clone
 ```
-git clone https://github.com/yourusername/speech-emotion-recognition.git
+git clone [https://github.com/yourusername/speech-emotion-recognition.git](https://github.com/ex-rnd/Speech-Emotion-Recognition-Using-Tensorflow.git)
 cd speech-emotion-recognition
 ```
 
@@ -135,101 +134,6 @@ pre-commit install
 
 
 ### Thank you for your contributions! 🎉
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
