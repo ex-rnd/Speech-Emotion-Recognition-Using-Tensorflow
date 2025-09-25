@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/75b68583-e15e-4e30-9a8f-c42a8230bc3a
 First, see it in action:
 1. Open a terminal.
 2. Run the prediction script on a WAV file
-```
+```bash
 python scripts/predict_ser.py -f data/audio/sad_01.wav
 ```
 3. Observe live confidence scores and predicted labels
@@ -30,13 +30,13 @@ python scripts/predict_ser.py -f data/audio/sad_01.wav
 
 ## 🛠️ Getting Started
 1. Clone
-```
+```bash
 git clone [https://github.com/yourusername/speech-emotion-recognition.git](https://github.com/ex-rnd/Speech-Emotion-Recognition-Using-Tensorflow.git)
 cd speech-emotion-recognition
 ```
 
 2. Environment
-```
+```bash
 python3 -m venv spixah
 source spixah/bin/activate   # Linux/macOS  
 spixah\Scripts\activate      # Windows  
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 ## ▶️ Usage
 Run inference on any WAV:
-```
+```bash
 python scripts/predict_ser.py \
   -f ../data/audio/happy_10.wav \
   -m ../models/best_ser.h5
@@ -74,7 +74,7 @@ All EDA, feature engineering, model building, training and plotting live in the 
 
 
 ## 📐 Model Architecture
-```
+```md
 Input (40 × 1 MFCC feature vector)
     │
     ▼
@@ -121,7 +121,7 @@ Train/Val Loss
 - Fork the repo
 - Branch naming: feature/xyz-description or fix/xyz-description
 - Install pre-commit hooks:
-```
+```bash
 pip install pre-commit
 pre-commit install
 ```
